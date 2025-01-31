@@ -30,8 +30,10 @@ const HomePage = () => {
 
                 <div className='flex flex-col md:flex-row justify-center  w-[100%] gap-4 '>
                     <div className=' md:w-[40%]  md:h-[80%]  flex  flex-col gap-4'>
-                        <h2 className=" text-3xl md:text-4xl lg:5xl xl:text-6xl font-normal mb-6 text-center md:text-left ">Transform work with full-stack generative AI</h2>
-                        <p className="text-xs lg:text-[15px]  text-center md:text-left  ">Build generative AI into any bussiness process with the<br></br> secure enterprise platform </p>
+                        <h2 className=" text-3xl md:text-4xl lg:5xl xl:text-6xl font-normal mb-6 text-center md:text-left ">Discover Zordie AI: Innovate, Learn, Collaborate.
+                        </h2>
+                        <p className="text-xs lg:text-[15px]  text-center md:text-left  ">Explore cutting-edge features, from personalized tutoring and virtual labs to collaborative <br /> workspaces and a creative marketplace.
+                         </p>
 
                         <div className=' flex justify-center md:justify-start gap-2  md:gap-4 mb-8'>
                             <Button className='bg-[#4F106E] hover:bg-[#2f0544] w-[130px]  lg:w-[213px]  lg:h-[58px] rounded-full lg:text-xl'>Request a demo</Button>

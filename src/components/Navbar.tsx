@@ -30,7 +30,7 @@ const Navbar = () => {
                             <li><a href="#" className="hover:text-gray-300">Products</a> <span className="h-2 w-2  mx-1 text-white ">-</span></li>
                             <li><a href="#" className="hover:text-gray-300">Pricing</a> </li>
                             <li><a href="#" className="hover:text-gray-300">Marketplace</a></li>
-                            <li><a href="#" className="hover:text-gray-300">Resources</a> <span className="h-2 w-2  mx-1 text-white ">-</span></li>
+                            <li><a href="#" className="hover:text-gray-300">Contact Us</a> <span className="h-2 w-2  mx-1 text-white ">-</span></li>
                         </ul>
                         <div className="flex space-x-4 ">
                             <Button className='bg-[#930EAD] hover:bg-[#7D169C] rounded-3xl'>
@@ -57,7 +57,7 @@ const Navbar = () => {
                         <li onClick={() => setmenu(!menu)}><a href="#" className="hover:text-gray-300">Products</a> <span className="h-2 w-2  mx-1 text-white ">-</span></li>
                         <li onClick={() => setmenu(!menu)}><a href="#" className="hover:text-gray-300">Pricing</a> </li>
                         <li onClick={() => setmenu(!menu)}><a href="#" className="hover:text-gray-300">Marketplace</a></li>
-                        <li onClick={() => setmenu(!menu)}><a href="#" className="hover:text-gray-300">Resources</a> <span className="h-2 w-2  mx-1 text-white ">-</span></li>
+                        <li onClick={() => setmenu(!menu)}><a href="#" className="hover:text-gray-300">Contact Us</a> <span className="h-2 w-2  mx-1 text-white ">-</span></li>
                     </ul>
                     <div className="flex flex-col justify-center items-start ">
                         <Button onClick={() => setmenu(!menu)} className='bg-[#930EAD] hover:bg-[#7D169C] rounded-3xl'>
